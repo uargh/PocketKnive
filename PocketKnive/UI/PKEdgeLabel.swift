@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 public class PKEdgeLabel: UILabel {
-    var textInsets = UIEdgeInsets.zero {
+    public var textInsets = UIEdgeInsets.zero {
         didSet {
             self.invalidateIntrinsicContentSize()
         }
